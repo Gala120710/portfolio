@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuliene Romero — SEO Content Strategist</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color: #1a1a1a; background: #fff; line-height: 1.6; }
+
+.container { max-width: 860px; margin: 0 auto; padding: 0 2rem; }
+
+/* Hero */
+.hero { padding: 3.5rem 2rem 2.5rem; border-bottom: 1px solid #e8e8e8; max-width: 860px; margin: 0 auto; }
+.hero-tag { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #888; margin-bottom: 0.75rem; }
+.hero h1 { font-size: 30px; font-weight: 500; line-height: 1.2; margin-bottom: 0.6rem; }
+.hero-sub { font-size: 15px; color: #555; line-height: 1.7; max-width: 600px; margin-bottom: 1.5rem; }
+.badge-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.badge { font-size: 11px; padding: 4px 11px; border-radius: 20px; border: 1px solid #ddd; color: #555; background: #f7f7f7; }
+
+/* Sections */
+.section { padding: 2rem; border-bottom: 1px solid #e8e8e8; max-width: 860px; margin: 0 auto; }
+.section-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #aaa; margin-bottom: 1.25rem; }
+
+/* Stats */
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+.stat-card { background: #f7f7f7; border-radius: 8px; padding: 1rem; }
+.stat-num { font-size: 24px; font-weight: 500; color: #1a1a1a; }
+.stat-lbl { font-size: 12px; color: #777; margin-top: 2px; }
+
+/* Blogs */
+.blog-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.blog-card { background: #fff; border: 1px solid #e4e4e4; border-radius: 12px; padding: 1.25rem; min-width: 0; overflow: hidden; }
+.blog-lang { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #999; margin-bottom: 0.4rem; }
+.blog-name { font-size: 14px; font-weight: 500; margin-bottom: 0.25rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.blog-url { font-size: 11px; color: #185FA5; margin-bottom: 0.75rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.blog-url a { color: #185FA5; text-decoration: none; }
+.blog-url a:hover { text-decoration: underline; }
+.blog-desc { font-size: 12px; color: #666; line-height: 1.55; margin-bottom: 0.75rem; }
+.blog-pills { display: flex; flex-wrap: wrap; gap: 5px; }
+.pill { font-size: 10px; padding: 3px 7px; border-radius: 20px; background: #f2f2f2; color: #666; }
+@media (max-width: 640px) { .blog-grid { grid-template-columns: 1fr; } }
+
+/* Workflow */
+.workflow { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; }
+.wf-step { border: 1px solid #e8e8e8; border-radius: 8px; padding: 0.85rem; }
+.wf-num { font-size: 10px; color: #bbb; margin-bottom: 4px; }
+.wf-name { font-size: 12px; font-weight: 500; }
+.wf-sub { font-size: 11px; color: #888; margin-top: 3px; line-height: 1.4; }
+
+/* Clients */
+.geo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+.geo-card { border: 1px solid #e8e8e8; border-radius: 8px; padding: 1rem 1.1rem; }
+.geo-region { font-size: 13px; font-weight: 500; margin-bottom: 3px; }
+.geo-detail { font-size: 12px; color: #888; line-height: 1.4; }
+
+/* Skills */
+.skill-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; }
+.skill-item { border: 1px solid #e8e8e8; border-radius: 8px; padding: 1rem; }
+.skill-title { font-size: 13px; font-weight: 500; margin-bottom: 6px; }
+.skill-desc { font-size: 12px; color: #777; line-height: 1.55; }
+
+/* Contact */
+.contact-bar { padding: 1.75rem 2rem; display: flex; gap: 2.5rem; flex-wrap: wrap; align-items: center; max-width: 860px; margin: 0 auto; }
+.contact-info { font-size: 13px; color: #777; }
+.contact-info strong { color: #1a1a1a; font-weight: 500; }
+
+@media (max-width: 600px) {
+  .hero, .section { padding: 1.5rem 1rem; }
+  .hero h1 { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <p class="hero-tag">SEO Portfolio · Content Strategy · Branded Search</p>
+  <h1>Yuliene Romero<br>SEO Content Strategist</h1>
+  <p class="hero-sub">Trilingual content architect operating three editorial blogs across ES / EN / IT verticals. Specialized in on-page SEO, keyword research, and branded search strategy — systematically building positive search presence through high-quality, entity-based content publishing at scale.</p>
+  <div class="badge-row">
+    <span class="badge">On-Page SEO</span>
+    <span class="badge">Keyword Research</span>
+    <span class="badge">Content Strategy</span>
+    <span class="badge">Branded Search</span>
+    <span class="badge">Schema Markup</span>
+    <span class="badge">WordPress</span>
+    <span class="badge">Rank Math</span>
+    <span class="badge">Link Building</span>
+    <span class="badge">Medium · LinkedIn</span>
+    <span class="badge">ES · EN · IT</span>
+  </div>
+</div>
+
+<div class="section">
+  <p class="section-label">Output at a glance</p>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-num">1,200+</div><div class="stat-lbl">Articles published</div></div>
+    <div class="stat-card"><div class="stat-num">3</div><div class="stat-lbl">WordPress blogs managed</div></div>
+    <div class="stat-card"><div class="stat-num">3</div><div class="stat-lbl">Languages (ES / EN / IT)</div></div>
+    <div class="stat-card"><div class="stat-num">7+</div><div class="stat-lbl">Active clients served</div></div>
+    <div class="stat-card"><div class="stat-num">Global</div><div class="stat-lbl">6 regions covered</div></div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="section-label">Editorial properties managed</p>
+  <div class="blog-grid">
+    <div class="blog-card">
+      <div class="blog-lang">ES — Spanish</div>
+      <div class="blog-name">OggiNotizia</div>
+      <div class="blog-url"><a href="https://ogginotizianews.com/" target="_blank">ogginotizianews.com</a></div>
+      <div class="blog-desc">Primary content vehicle for Spanish-language audiences. High-volume publishing targeting branded and sector keywords. Configured for clean indexation via native WordPress canonicals and auto-generated sitemaps — no third-party plugin dependencies.</div>
+      <div class="blog-pills">
+        <span class="pill">Branded search</span>
+        <span class="pill">Schema markup</span>
+        <span class="pill">GSC management</span>
+      </div>
+    </div>
+    <div class="blog-card">
+      <div class="blog-lang">IT — Italian</div>
+      <div class="blog-name">Cronaca Italia</div>
+      <div class="blog-url"><a href="https://cronacaitaliadotcom.wordpress.com/" target="_blank">cronacaitaliadotcom.wordpress.com</a></div>
+      <div class="blog-desc">Italian-language editorial property. Hosts Rank Math schema blocks (Persona, Article, BlogPosting) for structured data and entity recognition. Targets Italian SERP clusters for multi-geography content coverage.</div>
+      <div class="blog-pills">
+        <span class="pill">Rank Math schema</span>
+        <span class="pill">Italian SERP</span>
+        <span class="pill">Structured data</span>
+      </div>
+    </div>
+    <div class="blog-card">
+      <div class="blog-lang">ES — Spanish (LATAM)</div>
+      <div class="blog-name">Noticias Mundiales</div>
+      <div class="blog-url"><a href="https://noticiasmundiales2019.wordpress.com/" target="_blank">noticiasmundiales2019.wordpress.com</a></div>
+      <div class="blog-desc">Spanish-language property focused on Latin American audiences. Complements the content network by occupying additional SERP real estate across business, leadership, and sector-trend keyword clusters.</div>
+      <div class="blog-pills">
+        <span class="pill">LATAM coverage</span>
+        <span class="pill">Leadership content</span>
+        <span class="pill">Think-tank tone</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="section-label">8-step content production workflow</p>
+  <div class="workflow">
+    <div class="wf-step"><div class="wf-num">01</div><div class="wf-name">Keyword research</div><div class="wf-sub">3-language keyword set per campaign</div></div>
+    <div class="wf-step"><div class="wf-num">02</div><div class="wf-name">Blog articles</div><div class="wf-sub">ES / EN / IT · ~1,100 words + FAQ</div></div>
+    <div class="wf-step"><div class="wf-num">03</div><div class="wf-name">Schema markup</div><div class="wf-sub">Rank Math · Persona / Article / BlogPost</div></div>
+    <div class="wf-step"><div class="wf-num">04</div><div class="wf-name">Medium (EN)</div><div class="wf-sub">Syndication for authority & reach</div></div>
+    <div class="wf-step"><div class="wf-num">05</div><div class="wf-name">WordPress publish</div><div class="wf-sub">Title · slug · tags · excerpt · categories</div></div>
+    <div class="wf-step"><div class="wf-num">06</div><div class="wf-name">LinkedIn (EN)</div><div class="wf-sub">Thought-leadership post per article</div></div>
+    <div class="wf-step"><div class="wf-num">07</div><div class="wf-name">SEO image</div><div class="wf-sub">Filename optimization + 3 alt texts</div></div>
+    <div class="wf-step"><div class="wf-num">08</div><div class="wf-name">Link building</div><div class="wf-sub">Internal linking + media outreach strategy</div></div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="section-label">Client reach — regions served</p>
+  <div class="geo-grid">
+    <div class="geo-card"><div class="geo-region">🌍 East Africa</div><div class="geo-detail">Business, energy & commodities sectors</div></div>
+    <div class="geo-card"><div class="geo-region">🌍 West Africa</div><div class="geo-detail">Finance, trade & leadership profiles</div></div>
+    <div class="geo-card"><div class="geo-region">🇺🇸 United States</div><div class="geo-detail">Startups, consulting & professional services</div></div>
+    <div class="geo-card"><div class="geo-region">🇨🇦 Canada</div><div class="geo-detail">Tech, investment & advisory firms</div></div>
+    <div class="geo-card"><div class="geo-region">🇲🇽 Mexico</div><div class="geo-detail">Business & executive profiles</div></div>
+    <div class="geo-card"><div class="geo-region">🌎 LATAM</div><div class="geo-detail">Cross-regional corporate campaigns</div></div>
+    <div class="geo-card"><div class="geo-region">🇮🇹 Italy</div><div class="geo-detail">Corporate & professional visibility</div></div>
+    <div class="geo-card"><div class="geo-region">🇵🇹 Portugal</div><div class="geo-detail">Business & personal brand content</div></div>
+    <div class="geo-card"><div class="geo-region">🇷🇺 Russia</div><div class="geo-detail">Executive & corporate profiles</div></div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="section-label">Core skills</p>
+  <div class="skill-grid">
+    <div class="skill-item">
+      <div class="skill-title">On-Page SEO</div>
+      <div class="skill-desc">Meta titles, meta descriptions, H1 architecture, slug optimization, internal linking, canonical management, sitemap configuration and GSC troubleshooting.</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-title">Keyword Research</div>
+      <div class="skill-desc">Branded and semantic keyword targeting across 3 languages. Google Autocomplete, People Also Ask, competitor gap analysis and SERP intent mapping.</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-title">Content Production</div>
+      <div class="skill-desc">1,000–1,200-word articles in think-tank and economic journal tone. FAQ blocks, entity-rich copy, multi-language output (ES/EN/IT) per campaign cycle.</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-title">Schema Markup</div>
+      <div class="skill-desc">Rank Math schema configuration: BlogPosting, Person, Article. JSON-LD entity building for brand visibility in Google Knowledge Graph and AI-generated answers.</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-title">Link Building</div>
+      <div class="skill-desc">Strategic internal linking architecture across blog network. Media outreach to high-authority publications for editorial mentions and natural backlink acquisition.</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-title">WordPress Management</div>
+      <div class="skill-desc">Multi-site administration, plugin configuration, indexation troubleshooting, 301 redirect audits, category and tag architecture across trilingual properties.</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-title">SEO Image Optimization</div>
+      <div class="skill-desc">Strategic filename creation with target keywords. Three alt text variations per image (ES/EN/IT) aligned to article focus keyphrases and image context.</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-title">Content Syndication</div>
+      <div class="skill-desc">Cross-platform distribution via Medium (EN) and LinkedIn for authority building and content amplification beyond owned properties.</div>
+    </div>
+  </div>
+</div>
+
+<div class="contact-bar">
+  <div class="contact-info"><strong>Yuliene Romero</strong><br>SEO Content Strategist · Caracas, Venezuela</div>
+  <div class="contact-info"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yulieneromero" target="_blank">linkedin.com/in/yulieneromero</a></div>
+  <div class="contact-info"><strong>Medium:</strong> @benjaminmcguire</div>
+</div>
+
+</body>
+</html>
